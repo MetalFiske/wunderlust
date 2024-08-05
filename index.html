@@ -1,8 +1,8 @@
 <!doctype html>
 <html Lang="en">
- <head>
+ <body>
     <a href="#main-content" id="skipLink">Skip to main content</a> 
-</head>
+
 
 <header>
 <h1>Wunderlust Travel</h1>
@@ -35,21 +35,21 @@
     <source media="(min-width:1024px)" srcset="images/majorca-waves-L.png">
     <source media="(min-width:780px)" srcset="images/majorca-waves-M.png">
     <source media="(min-width:320px)" srcset="images/majorca-waves-S.png">
-    <img src="" alt="">
+    <img src="images/majorca-waves-M.png" alt="rocky cliffs with waves hitting them">
   </picture>
 <!--majorca-waves.png-->
 <picture>
     <source media="(min-width:1024px)" srcset="images/majorca-beach-L.png">
     <source media="(min-width:780px)" srcset="images/majorca-beach-M.png">
     <source media="(min-width:320px)" srcset="images/majorca-beach-S.png">
-    <img src="" alt="">
+    <img src="images/majorca-beach-M.png" alt="Sandy beach in a cove">
   </picture>
 <!--majorca-beach.png-->
 <picture>
     <source media="(min-width:1024px)" srcset="images/majorca-cove-L.png">
     <source media="(min-width:780px)" srcset="images/majorca-cove-M.png">
     <source media="(min-width:320px)" srcset="images/majorca-cove-S.png">
-    <img src="" alt="">
+    <img src="images/majorca-cove-M.png" alt="rocky cove with clear water and forested beaches">
   </picture>
 <!--majorca-cove.png-->
 
@@ -64,8 +64,8 @@
 
 <!--(href=”#”) (title=”Search for flights”)-->
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <a href="#">  
-  <path title="Search for flights" stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <a title="Search for flights" href="#">  
+  <path  stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <polyline points="9 6 15 12 9 18" />
   </a>
 </svg>
@@ -252,7 +252,6 @@ Travel Time (Fall, Winter, Spring, Summer, Flexible)
       <select 
           id="method" 
           name="method"
-          value="Select One"
           required
           aria-required="true"
           >
@@ -363,7 +362,6 @@ Travel Time (Fall, Winter, Spring, Summer, Flexible)
     <select 
         id="time" 
         name="time"
-        value="Select One"
         required
         aria-required="true"
         >
@@ -382,6 +380,7 @@ Travel Time (Fall, Winter, Spring, Summer, Flexible)
     
     </form>
 </main>
+</body>
 <footer>
 <p>Copyright 2021 Wunderlust</p>
 <a href="#">Privacy Statement</a>
